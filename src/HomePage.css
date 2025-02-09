@@ -1,0 +1,205 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #a8dadc, #457b9d);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .homepage-container {
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .language-button {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .language-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+  }
+  
+  .hero-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .main-title {
+    font-size: 3.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+  }
+  
+  .hero-text {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 30px;
+    max-width: 800px;
+    line-height: 1.6;
+  }
+  
+  .donate-button {
+    background: #4caf50;
+    color: white;
+    font-size: 18px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background: #45a049;
+    box-shadow: 0 0 15px rgba(69, 160, 73, 0.7);
+  }
+  
+  .how-we-help-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .progress {
+    height: 20px;
+    background: #38a169;
+    border-radius: 10px;
+  }
+  
+  .payment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .payment-option a {
+    display: inline-block;
+    padding: 14px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .payment-option a.revolut {
+    background: #0075eb;
+    color: white;
+  }
+  
+  .payment-option a.revolut:hover {
+    background: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .payment-option a.iban {
+    background: #ff9800;
+    color: white;
+  }
+  
+  .payment-option a.iban:hover {
+    background: #e68a00;
+    transform: scale(1.05);
+  }
+  
+  .payment-option a.buymeacoffee {
+    background: #ffdd00;
+    color: black;
+  }
+  
+  .payment-option a.buymeacoffee:hover {
+    background: #e6c200;
+    transform: scale(1.05);
+  }
+  
+  .payment-option a.gofundme {
+    background: #28a745;
+    color: white;
+  }
+  
+  .payment-option a.gofundme:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
