@@ -52,12 +52,12 @@ const HomePage = () => {
         </div>
         <div className="payment-options">
           <div className="payment-option">
-            <a href="https://www.revolut.com" target="_blank" rel="noopener noreferrer" className="revolut">
+            <a href="https://revolut.me/alexanjhdu" target="_blank" rel="noopener noreferrer" className="revolut">
               Donate with Revolut
             </a>
           </div>
           <div className="payment-option">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="iban">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="RO16ROIN40214U1PTGRK8UFC">
               Donate with IBAN
             </a>
           </div>
