@@ -141,3 +141,50 @@ body, html {
     background: rgba(0, 0, 0, 0.2);
     color: white;
   }  
+  /* Responsivitate pentru ecrane mai mici */
+@media (max-width: 768px) {
+    .homepage-container {
+        padding: 10px; /* Micșorăm padding-ul */
+    }
+
+    .main-title {
+        font-size: 2.2rem; /* Reducem dimensiunea titlului */
+    }
+
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .donate-button {
+        font-size: 1rem;
+        padding: 10px 20px; /* Micșorăm butoanele */
+    }
+
+    .payment-options {
+        flex-direction: column; /* Punem metodele de donație una sub alta */
+        gap: 10px;
+    }
+
+    .payment-option a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .iban-section {
+        font-size: 14px;
+    }
+
+    .iban-button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Eliminăm bara de scroll orizontală */
+body {
+    overflow-x: hidden;
+}
