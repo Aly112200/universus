@@ -9,4 +9,9 @@ export default defineConfig({
     port: 5173,
   },
   base: '/', // Setarea pentru domeniu
+  build: {
+    rollupOptions: {
+      external: ['bootstrap'], // Evită problema de rezolvare a importului bootstrap
+    },
+  },
 });
